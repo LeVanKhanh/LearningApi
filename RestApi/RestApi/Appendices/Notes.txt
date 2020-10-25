@@ -1,0 +1,10 @@
+Swagger
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
+https://github.com/domaindrivendev/Swashbuckle.AspNetCore#operation-filters
+versioning
+https://codingfreaks.de/dotnet-core-api-versioning/
+https://dev.to/99darshan/restful-web-api-versioning-with-asp-net-core-1e8g
+
+Install-Package Swashbuckle.AspNetCore
+Install-package Microsoft.AspNetCore.Mvc.Versioning
+Install-package Swashbuckle.AspNetCore.Annotations

@@ -29,7 +29,6 @@ namespace TheGraphQL
                 options.EnableMetrics = true;
             })
             .AddSystemTextJson()
-            .AddNewtonsoftJson()
             .AddErrorInfoProvider(opt => opt.ExposeExceptionStackTrace = true)
             .AddGraphTypes(ServiceLifetime.Scoped);
 

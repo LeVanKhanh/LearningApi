@@ -8,7 +8,7 @@ namespace TheGraphQL.GraphQL.Type
         public ProductType()
         {
             Field(f => f.Id);
-            Field(f => f.Name);
+            Field(f => f.Name).Description("Name of a product");
         }
     }
 }
